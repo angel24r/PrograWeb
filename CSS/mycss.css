@@ -1,0 +1,78 @@
+.btn-nuevo {
+  color: #fff;
+  background-color: #00C09A;
+  border-color: #4582ec;
+}
+
+.btn-nuevo:hover {
+  color: #fff;
+  background-color: #226be8;
+  border-color: #1863e6;
+}
+
+.btn-nuevo:focus, .btn-nuevo.focus {
+  color: #fff;
+  background-color: #99F9FF;
+  border-color: #1863e6;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+}
+
+.btn-nuevo.disabled, .btn-nuevo:disabled {
+  color: #fff;
+  background-color: #4582ec;
+  border-color: #4582ec;
+}
+
+.btn-nuevo:not(:disabled):not(.disabled):active, .btn-nuevo:not(:disabled):not(.disabled).active,
+.show > ..btn-nuevo.dropdown-toggle {
+  color: #fff;
+  background-color: #1863e6;
+  border-color: #165edb;
+}
+
+.btn-nuevo:not(:disabled):not(.disabled):active:focus, .btn-nuevo:not(:disabled):not(.disabled).active:focus,
+.show > .btn-nuevo.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+.btn-primary2 {
+  color: #fff;
+  background-color: #7700B7;
+  border-color: #4582ec;
+}
+
+.btn-primary2:hover {
+  color: #fff;
+  background-color: #DB99FF;
+  border-color: #1863e6;
+}
+
+.btn-primary2:focus, .btn-primary2.focus {
+  color: #fff;
+  background-color: #FF99C1;
+  border-color: #1863e6;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+}
+
+.btn-primary2.disabled, .btn-primary2:disabled {
+  color: #fff;
+  background-color: #4582ec;
+  border-color: #4582ec;
+}
+
+.btn-primary2:not(:disabled):not(.disabled):active, .btn-primary2:not(:disabled):not(.disabled).active,
+.show > .btn-primary2.dropdown-toggle {
+  color: #fff;
+  background-color: #1863e6;
+  border-color: #165edb;
+}
+
+.btn-primary2:not(:disabled):not(.disabled):active:focus, .btn-primary2:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary2.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(97, 149, 239, 0.5);
+}
