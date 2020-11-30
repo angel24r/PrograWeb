@@ -16,12 +16,14 @@ $conexion=mysqli_connect("localhost","root","","encuestas");
 		$registro=mysqli_fetch_object($bloque);
 
 		$_SESSION['nombre']=$registro->Nombre.' '.$registro->Apellidos;
-
+		$_SESSION['Id']=$registro->Id;
+		$_SESSION['email']=$registro->Email;
+		$_SESSION['foto']=$registro->Id.".".$registro->Foto;
 		header("location: admin/home.php");
 		
 	}
 	else{
-		header("location: login.html?m=1");
+		header("location: login.php");
 	}
 }
 

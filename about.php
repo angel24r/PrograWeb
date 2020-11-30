@@ -6,33 +6,13 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.html">GG-Code</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.html">Entrar</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="registro.html">Registro</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="password.html">Contrase&ntilde;a</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-    </ul>
+	<?php include "header.php" ?>
+  <div class="contrainer" style="background: rgba(200,200,200);">
+    <div class="row mt-3">
+      <div class="col-md-12">
+      </div>
+    </div>    
   </div>
-</nav>
-
 
 <div class="container" style="background: rgba(200,200,200,.7);">
 	<div class="row mt-3">

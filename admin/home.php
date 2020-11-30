@@ -1,16 +1,12 @@
-<?php
-session_start();
-?>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" href="../css/bootstrap.css">
-</head>
-<body>
-<h1>Bienvenido <span class="badge badge-danger"><?php echo $_SESSION['nombre']; ?></span></h1>
-
-<a href="../index.php">Cerrar Sesión</a>
+	<?php 
+	include "header.php";
+	include "menu.php" ;
+	?>
+	<div class="contrainer" style="background: rgba(200,200,200);">
+		<div class="row mt-3">
+			<div class="col-md-12">
+			</div>
+		</div>		
+	</div>
 </body>
 </html>
