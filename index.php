@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 session_destroy();
 ?>
@@ -101,7 +101,10 @@ session_destroy();
     </div>
   </div>
 </div>	
-
+<script src="JS/mias.js"></script>
+<script type="text/javascript">
+  datos={"nombre":"pedro"}; 
+</script>
 
 </body>
 </html>

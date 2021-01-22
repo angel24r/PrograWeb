@@ -26,8 +26,8 @@ $usuario=$oBD->saca_tupla("SELECT * from  usuario where Id=".$_SESSION['Id']);
                          
 ?>
 
-		  <div class="container" style="background: rgba(200,200,200,0.3);">
-		  <div class="row mt-3"> 
+      <div class="container" style="background: rgba(200,200,200,0.3);">
+      <div class="row mt-3"> 
                 <div class="col-md-12">
                     <form method="post" enctype="multipart/form-data">
                    
